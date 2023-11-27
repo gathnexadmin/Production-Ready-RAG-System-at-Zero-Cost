@@ -36,7 +36,7 @@ def GPT_completion_with_vector_search(prompt, rag):
     If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
     You also have access to RAG vectore database access which has Indian Law data. Be careful when giving response, sometime irrelevent Rag content will be there so give response effectivly to user based on the prompt.
     You can speak fluently in English.
-    Note: Sometimes the Context is not relevant to Question, so give Answer according to that based on sutiation.
+    Note: Sometimes the Context is not relevant to Question, so give Answer according to that sutiation.
     '''
     response = client.chat.completions.create(
     model="gpt-3.5-turbo-1106",
